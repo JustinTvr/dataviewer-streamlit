@@ -13,4 +13,3 @@ serverAddress = "0.0.0.0"  # Adresse IP du serveur
 [global]
 logLevel = "info"  # Niveau de journalisation (debug, info, warning, error, critical)
 
-streamlit run Main_app.py --server.port 80
