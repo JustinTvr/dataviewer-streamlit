@@ -4,7 +4,7 @@ enableCORS = false  # Activer ou désactiver le support CORS (Cross-Origin Resou
 
 [server]
 headless = true  # Exécution en mode headless
-port = 8501  # Port sur lequel l'application sera exposée
+port = 80  # Port sur lequel l'application sera exposée
 enableXsrfProtection = true  # Activer la protection contre les attaques XSRF
 
 [browser]
