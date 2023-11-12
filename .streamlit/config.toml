@@ -1,3 +1,16 @@
+[general]
+email = "justin.tauvron@outlook.fr"  # Adresse e-mail pour les notifications
+enableCORS = false  # Activer ou désactiver le support CORS (Cross-Origin Resource Sharing)
+
 [server]
-port = 80
+headless = true  # Exécution en mode headless
+port = 8501  # Port sur lequel l'application sera exposée
+enableXsrfProtection = true  # Activer la protection contre les attaques XSRF
+
+[browser]
+serverAddress = "0.0.0.0"  # Adresse IP du serveur
+
+[global]
+logLevel = "info"  # Niveau de journalisation (debug, info, warning, error, critical)
+
 streamlit run Main_app.py --server.port 80
